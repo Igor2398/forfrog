@@ -1,0 +1,91 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-color: #1A1919;
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+}
+
+.login__container {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    opacity: 0.85;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+} 
+
+.login__container input[type="text"], .login__container input[type="password"] {
+    width: 300px;
+    text-align: center;
+    padding: 15px 10px;
+    color: black;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #BF2E2E;
+    border-radius: 25px;
+    outline: none; 
+    margin-bottom: -5px;
+    transition: 1ms;
+}
+
+.login__container input[type="text"]:focus, .login__container input[type="password"]:focus{
+    border-color: purple;
+    width: 350px;
+}
+
+.login__button { 
+    width: 150px;
+    text-align: center;
+    padding: 15px 10px;
+    color: black;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #BF2E2E;
+    border-radius: 25px;
+    outline: none; 
+    margin-bottom: -5px;
+    transition: 0.5ms;
+    cursor: pointer;
+}
+
+.login__button:hover {
+    background-color:#BF2E2E;
+    transition: 900ms;
+}
+
+.login__container i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+
+h1 {
+    text-align: center;
+    color: #BF2E2E;
+}
+
+h4 {
+    text-decoration: none;
+    text-align: left;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
