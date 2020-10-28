@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../images/back.jpg);
     background-color: #1A1919;
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@ body {
     color: black;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     border: 2px solid #BF2E2E;
     border-radius: 25px;
     outline: none; 
