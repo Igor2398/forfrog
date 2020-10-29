@@ -1,60 +1,59 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../images/back.jpg);
-    background-color: #1A1919;
+/*    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../images/back.jpg);*/
+    background-image: url(../images/back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
 }
 
-.menu {
-    border: 2px solid black;
-    position: relative;
-    padding-left: 10%;
-    padding-right: 10%;
-}
 
-.circle__ongoing__test {
-    border: 2px solid greenyellow;
-    margin-left: 30px; 
-    height: 400px;
-    -moz-border-radius: 300px;
-    -webkit-border-radius: 300px;
-    width: 400px;
+.circle__ongoing__test, .circle__done__tests, .circle__theme, .circle__logout {
+    float: left;
+    font-size: 100px;
+    margin-left: 20%;
+    border: 2px solid #f7b731;
+    height: 310px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    width: 310px;
     position: relative;
+    color: #f7b731;
+    outline: none;
 }
 
 .circle__done__tests {
-    border: 2px solid greenyellow;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 400px;
-    -moz-border-radius: 300px;
-    -webkit-border-radius: 300px;
-    width: 400px;
-    position: sticky;
+    margin-left: 15%;
 }
 
 .circle__theme {
-    border: 2px solid greenyellow;
-    margin-left: 500px;
-    height: 400px;
-    -moz-border-radius: 300px;
-    -webkit-border-radius: 300px;
-    width: 400px;
-    position: sticky;
+    clear: both;
+    margin: 2% 0 0 20%;
+
 }
 
 .circle__logout {
-    border: 2px solid greenyellow;
-    margin-left: 500px;
-    height: 400px;
-    -moz-border-radius: 300px;
-    -webkit-border-radius: 300px;
-    width: 400px;
-    position: relative;
+    margin: 2% 0 0 15%;
+}
+
+
+.icon, icon:hover{
+    position: absolute;               /* 2 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.circle__ongoing__test:hover, .circle__done__tests:hover, .circle__theme:hover, .circle__logout:hover {
+    background-color: #BFB2FF;
+    transition: 1s;
+    opacity: 0.7;
 }
