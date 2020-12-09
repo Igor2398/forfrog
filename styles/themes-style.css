@@ -1,10 +1,9 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
 /*    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../images/back.jpg);*/
@@ -15,9 +14,9 @@ body {
 }
 
 
-.circle__during__test, .circle__done__tests, .circle__theme, .circle__logout {
+.circle__ongoing__test, .circle__done__tests, .circle__theme, .circle__logout {
     float: left;
-    font-size: 100px;
+    font-size: 50px;
     margin-left: 20%;
     border: 2px solid #f7b731;
     height: 310px;
@@ -43,16 +42,14 @@ body {
     margin: 2% 0 0 15%;
 }
 
-
-.icon, icon:hover{
-    position: absolute;               
+h4, h4:hover{
+    position: absolute;              
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 1;
 }
 
-.circle__during__test:hover, .circle__done__tests:hover, .circle__theme:hover, .circle__logout:hover {
+.circle__ongoing__test:hover, .circle__done__tests:hover, .circle__theme:hover, .circle__logout:hover {
     background-color: #BFB2FF;
     transition: 1s;
     opacity: 0.7;
